@@ -16,15 +16,15 @@ The data for this project will be collected through:
 
 
 ### Data Collection Plan  
-- **Screen time**: Daily phone usage logs (hours spent on different apps, total screen time).  
+- **Screen time**: Daily phone usage logs (hours spent on different apps, total screen time), my own Steam gameplay hours data will be collected by Steam API.  
 - **Social activities**: Self-reported logs, including time spent with friends, family, or at events, and Timeline from Google Maps. 
-- **Additional factors**: Contextual factors like mood, productivity, or academic performance may be included if feasible.  
+- **Additional factors**: Sleep duration (tracked daily) and weather conditions (sourced from local weather data) will also be considered, as both can influence screen time and participation in real-life social activities.
 
 ### Analysis Plan  
 - Perform **Exploratory Data Analysis (EDA)** to identify trends and patterns.  
 - Conduct **statistical tests** to examine correlations between screen time and social activities.  
 - Use **visualization techniques** to represent the findings effectively.  
-- If applicable, apply **machine learning models** to predict social engagement based on screen time usage.  
+- Apply **machine learning models** to predict social engagement based on screen time usage.  
 
 ### Tools & Technologies  
 - **Programming Language**: Python  
