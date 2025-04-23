@@ -9,6 +9,9 @@
 ### Motivation
 In today's digital age, people spend a significant portion of their time on screens, which may impact their participation in real-time social activities. This project aims to analyze the relationship between screen time and social engagement to identify patterns and potential behavioral insights.
 
+### Project Goal
+The goal of this project is to examine and quantify the potential relationship between digital screen time and social behavior. In particular, we assess whether increased screen usage correlates negatively with real-world social engagement, and whether other contextual factors — such as weather conditions — further modulate this relationship. Through data-driven insights, the project aspires to contribute toward better digital well-being strategies and encourage conscious screen use.
+
 ## Data Sources and Preprocessing
 
 ### Data Sources
@@ -81,11 +84,13 @@ While relatively simple, the model captured moderate predictive value, affirming
 - ✅ Included environmental effects (weather)
 - ✅ Applied machine learning with interpretable model
 
+## Interpretation 
+Although the model employed was a basic linear regression, it still yielded meaningful insights. The relationship between screen time and social activity proved to be statistically significant and moderately strong, even with minimal features. This suggests that screen time alone carries predictive value for offline social engagement. Rainy days, as expected, were also associated with slight decreases in social activity; however, the impact of weather was less pronounced than that of screen usage. Overall, the model validated the initial hypothesis and demonstrated that behavioral data, even with simple models, can offer valuable patterns when paired with contextual features like environmental conditions.
+
 ## Tools & Technologies
 - **Language:** Python
 - **Libraries:** Pandas, NumPy, Matplotlib, Statsmodels, scikit-learn
 - **Data Storage:** CSV files, Excel spreadsheets
 
 ## Conclusion
-This project supports the hypothesis that increased screen time is moderately associated with decreased social activity. Rainy weather also contributes as a suppressing factor. These findings highlight the interaction between digital and offline behavior and promote awareness for digital balance strategies.
-
+This project set out to evaluate whether screen time negatively impacts real-life social activity — and our findings support this claim. We tested the null hypothesis that there is no significant relationship, and with a p-value of 0.00018 and a moderate R², the analysis clearly leaned toward the alternative hypothesis. Additionally, rainy weather appeared to reduce social activity, but to a lesser extent than screen exposure. These insights encourage the promotion of digital balance and more conscious screen use in daily routines.
