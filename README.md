@@ -78,11 +78,11 @@ While relatively simple, the model captured moderate predictive value, affirming
 
 ## Accomplishments Summary
 
-- ✅ Fully cleaned & preprocessed dataset with transformed features
-- ✅ Performed in-depth EDA and hypothesis testing
-- ✅ Generated multiple visualizations across behavior & context
-- ✅ Included environmental effects (weather)
-- ✅ Applied machine learning with interpretable model
+-  Fully cleaned & preprocessed dataset with transformed features
+-  Performed in-depth EDA and hypothesis testing
+-  Generated multiple visualizations across behavior & context
+-  Included environmental effects (weather)
+-  Applied machine learning with interpretable model
 
 ## Interpretation 
 Although the model employed was a basic linear regression, it still yielded meaningful insights. The relationship between screen time and social activity proved to be statistically significant and moderately strong, even with minimal features. This suggests that screen time alone carries predictive value for offline social engagement. Rainy days, as expected, were also associated with slight decreases in social activity; however, the impact of weather was less pronounced than that of screen usage. Overall, the model validated the initial hypothesis and demonstrated that behavioral data, even with simple models, can offer valuable patterns when paired with contextual features like environmental conditions.
