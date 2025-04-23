@@ -94,3 +94,8 @@ Although the model employed was a basic linear regression, it still yielded mean
 
 ## Conclusion
 This project set out to evaluate whether screen time negatively impacts real-life social activity — and our findings support this claim. We tested the null hypothesis that there is no significant relationship, and with a p-value of 0.00018 and a moderate R², the analysis clearly leaned toward the alternative hypothesis. Additionally, rainy weather appeared to reduce social activity, but to a lesser extent than screen exposure. These insights encourage the promotion of digital balance and more conscious screen use in daily routines.
+
+
+> ⚠️ Raw data was excluded from this repository due to privacy concerns. 
+> All analysis is based on cleaned and transformed datasets available in this project.
+
