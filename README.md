@@ -1,6 +1,6 @@
 # Screen Time vs. Real-Time Social Activities  
 
-## Project Proposal
+## Project Overview & Methodology
 
 ### Hypothesis
 - **Null Hypothesis (H0):** There is no significant relationship between screen time and time spent on real-life social activities.
