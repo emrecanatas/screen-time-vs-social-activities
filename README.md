@@ -99,10 +99,12 @@ Although the Random Forest model yielded a lower R² score — suggesting weak g
 -  Performed in-depth EDA and hypothesis testing
 -  Generated multiple visualizations across behavior & context
 -  Included environmental effects (weather)
--  Applied machine learning with interpretable model
+-  Applied both linear and ensemble machine learning models with interpretable results
 
 ## Interpretation 
-Although the model employed was a basic linear regression, it still yielded meaningful insights. The relationship between screen time and social activity proved to be statistically significant and moderately strong, even with minimal features. This suggests that screen time alone carries predictive value for offline social engagement. Rainy days, as expected, were also associated with slight decreases in social activity; however, the impact of weather was less pronounced than that of screen usage. Overall, the model validated the initial hypothesis and demonstrated that behavioral data, even with simple models, can offer valuable patterns when paired with contextual features like environmental conditions.
+Although the initial model employed was a basic linear regression, it yielded meaningful insights. The relationship between screen time and social activity proved to be statistically significant and moderately strong, even with minimal features — suggesting that screen time alone carries predictive value for offline engagement.
+To build on these insights, a Random Forest Regressor was also implemented. While the R² score was lower, the model demonstrated lower overall prediction error (MAE and MSE), suggesting improved absolute accuracy despite less generalization. This contrast highlights the trade-off between interpretability and flexibility in machine learning approaches. Rainy days, as expected, were associated with slight decreases in social activity, though their effect remained weaker than that of screen exposure.
+Overall, the models validated the initial hypothesis and demonstrated that behavioral data — when paired with contextual features like environmental conditions — can offer valuable patterns, even in small datasets.
 
 ## Tools & Technologies
 - **Language:** Python
@@ -110,9 +112,10 @@ Although the model employed was a basic linear regression, it still yielded mean
 - **Data Storage:** CSV files, Excel spreadsheets
 
 ## Conclusion
-This project set out to evaluate whether screen time negatively impacts real-life social activity — and our findings support this claim. We tested the null hypothesis that there is no significant relationship, and with a p-value of 0.00018 and a moderate R², the analysis clearly leaned toward the alternative hypothesis. Additionally, rainy weather appeared to reduce social activity, but to a lesser extent than screen exposure. These insights encourage the promotion of digital balance and more conscious screen use in daily routines.
+This project set out to evaluate whether screen time negatively impacts real-life social activity — and our findings support this claim. We tested the null hypothesis that there is no significant relationship, and with a p-value of 0.00018 and a moderate R² from linear regression, the analysis clearly supported the alternative hypothesis.
+The Random Forest model added depth by highlighting predictive performance improvements with ensemble methods, especially in terms of reducing absolute error. These insights reinforce the importance of digital balance and encourage more conscious screen use in daily routines — particularly on days with no weather-related constraints.
 
 
-> ⚠️ Raw data was excluded from this repository due to privacy concerns. 
+> Raw data was excluded from this repository due to privacy concerns. 
 > All analysis is based on cleaned and transformed datasets available in this project.
 
