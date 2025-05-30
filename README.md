@@ -64,17 +64,34 @@ To understand environmental context and its potential confounding influence:
 
 A binary `Weather_Rain` variable was derived and used in further modeling.
 
-## Machine Learning
+## 🧠 Machine Learning
 
-We developed a Linear Regression model to predict social engagement using:
-- `ScreenTimeHours`
-- `Weather_Rain`
+We developed multiple models to predict real-world social engagement, using key features:
 
-**Model Performance:**
-- **Test MSE:** 1279.82
-- **Train R²:** 0.29
+- `ScreenTimeHours`: Total hours spent on screen daily  
+- `Weather_Rain`: Binary indicator of rainy weather conditions
 
-While relatively simple, the model captured moderate predictive value, affirming screen time and environmental factors as relevant variables.
+### 1. Linear Regression
+- **Test MSE:** 1279.82  
+- **Train R²:** 0.29  
+
+A simple yet informative model capturing a moderate inverse relationship between screen time and outdoor social behavior.
+
+### 2. Random Forest Regressor
+- **R² Score:** -0.14  
+- **MSE:** 836.51  
+- **MAE:** 16.44  
+
+Although the Random Forest model yielded a lower R² score — suggesting weak generalization in this setup — it still produced lower error values (MSE and MAE), indicating better absolute prediction accuracy on this small dataset.
+
+> 🟡 This suggests the model may be overfitting or that additional features are needed to improve generalizability.
+
+### 🔍 Visualizations
+
+<p float="left">
+  <img src="figures/feature_importance.png" width="400" alt="Feature Importance">
+  <img src="figures/predicted_vs_actual.png" width="400" alt="Predicted vs Actual">
+</p>
 
 ## Accomplishments Summary
 
