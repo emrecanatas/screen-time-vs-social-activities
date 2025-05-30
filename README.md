@@ -84,7 +84,7 @@ A simple yet informative model capturing a moderate inverse relationship between
 
 Although the Random Forest model yielded a lower R² score — suggesting weak generalization in this setup — it still produced lower error values (MSE and MAE), indicating better absolute prediction accuracy on this small dataset.
 
-> 🟡 This suggests the model may be overfitting or that additional features are needed to improve generalizability.
+> This suggests the model may be overfitting or that additional features are needed to improve generalizability.
 
 ### 🔍 Visualizations
 
