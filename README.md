@@ -88,10 +88,10 @@ Although the Random Forest model yielded a lower R² score — suggesting weak g
 
 ### 🔍 Visualizations
 
-<p float="left">
-  <img src="figures/feature_importance.png" width="400" alt="Feature Importance">
-  <img src="figures/predicted_vs_actual.png" width="400" alt="Predicted vs Actual">
-</p>
+
+![Feature Importance](figures/feature_importance.png)
+![Predicted vs Actual](figures/predicted_vs_actual.png)
+
 
 ## Accomplishments Summary
 
